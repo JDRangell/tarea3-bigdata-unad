@@ -38,4 +38,4 @@ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.2 spark_s
 ---
 
 ## Monitoreo y Evidencias
-- Spark UI: Puedes visualizar el rendimiento de los Jobs, Stages y tareas en tiempo real accediendo desde tu navegador a la URL: 
+- Spark UI: Puedes visualizar el rendimiento de los Jobs, Stages y tareas en tiempo real accediendo desde tu navegador a la URL: http://192.168.1.7:4040/jobs/ Dirección IP de la pc que esta en uso.
