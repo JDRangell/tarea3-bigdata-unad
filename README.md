@@ -2,7 +2,7 @@
 
 ## 1. Descripción del proyecto
 
-Este repositorio contiene la implementación práctica de la Tarea 3 del curso Big Data de la Universidad Nacional Abierta y  a Distancia (UNAD). Se desarrollan dos procesos: procesamiento por lotes con Apache Spark y procesamiento de eventos en tiempo real mediante Apache Kafka y Spark Streaming.
+Este repositorio contiene la implementación práctica de la Tarea 3 del curso Big Data de la UNAD. Se desarrollan dos procesos: procesamiento por lotes con Apache Spark y procesamiento de eventos en tiempo real mediante Apache Kafka y Spark Streaming.
 
 El flujo en tiempo real utiliza datos simulados de sensores con temperatura, humedad, identificador y marca de tiempo.
 
