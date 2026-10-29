@@ -79,18 +79,21 @@ El consumidor lee los eventos, procesa los datos y muestra promedios de temperat
 
 ## 7. Monitoreo y evidencias
 
-Mientras Spark Streaming esté ejecutándose, se puede consultar la interfaz web de Spark desde un navegador del equipo anfitrión:
+Mientras Spark Streaming esté ejecutándose, se puede consultar la interfaz web de Spark desde el navegador del equipo anfitrión, utilizando la dirección IP actual de la máquina virtual y el puerto 4040.
 
-`http://192.168.1.7:4040`
+Para consultar la IP de Ubuntu, ejecutar:
 
-La dirección IP puede cambiar según la configuración de red de la máquina virtual. Si no se puede acceder, se debe comprobar la IP actual de Ubuntu y que la aplicación Spark continúe activa.
+```bash
+hostname -I
+```
 
-Se recomienda registrar evidencias de:
+Luego, abrir en el navegador:
 
-- Ejecución y resultados del procesamiento por lotes.
-- Eventos generados por el productor Kafka.
-- Resultados calculados por Spark Streaming.
-- Interfaz de monitoreo de Spark, si está disponible.
+```text
+http://IP_DE_LA_MAQUINA_VIRTUAL:4040
+```
+
+La interfaz estará disponible mientras la aplicación Spark continúe ejecutándose y la configuración de red de la máquina virtual permita el acceso.
 
 ## 8. Arquitectura general
 
